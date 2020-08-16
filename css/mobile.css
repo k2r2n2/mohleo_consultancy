@@ -1,0 +1,81 @@
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  #what .items .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #what .items .item i{
+    align-self: center;
+  }
+
+}
+@media only screen and (max-width: 425px) {
+
+  #navbar{
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem ;
+    }
+
+    #navbar h1{
+      margin: .2rem;
+    }
+  
+    #navbar ul li a:hover{
+      /* background: transparent; */
+      border-radius: 3px;
+    }
+  
+    #what .items{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    #what .items .item i{
+      display: block;
+      flex-direction: column;
+      margin-right: 0;
+    }
+    
+  #who{
+    display: block;
+  }
+
+  #who .who-text h2.l2-head{
+    text-align: center;
+  }
+
+  #who .who-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    background: #1A535C url(../img/people.jpg) center center/cover;
+  }
+
+
+  #contact{
+    display: block;
+    flex-direction: column;
+  }
+
+  #contact{
+    display: flex;
+    flex-direction: column;
+  }
+  
+#contact.map{
+  display: block;
+    height: 200px;
+}
+
+
+}
